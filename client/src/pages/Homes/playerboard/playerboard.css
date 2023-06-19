@@ -1,0 +1,204 @@
+.player {
+    color: #fb8848;
+}
+.article {
+    display: flex;
+    gap: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 20px;
+}
+.onboard {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.onboard-2 {
+    width: 90%;
+    font-family: 'Viga';
+    margin: 20px auto;
+    padding: 0;
+}
+.ul-info {
+    padding: 0 1.5em;
+}
+
+.user-info {
+    border: solid 1px #ccc;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 20px;
+}
+
+.team-name {
+    border: solid 1px #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 20px;
+}
+.btn-form {
+    width: 100%;
+    align-items: center;
+    margin-top: 0;
+}
+.logout {
+    width: 100%;
+    text-align: right;
+}
+
+.lgt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lgt a {
+    font-size: 15px;
+    text-decoration: none;
+    width: 40%;
+}
+
+.lgt a:hover {
+    color: orange;
+}
+
+.training-clue {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+}
+
+.training-clue img {
+    width: 30%;
+}
+
+.training-clue li {
+    padding: 0.2em;
+}
+
+.article-div {
+    display: flex;
+    border: solid 1px #ccc;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.article-div img {
+    width: 30%;
+    border-radius: 20px;
+}
+.t-space {
+    margin-bottom: 10px;
+}
+
+/* responsive mobile */
+@media screen and (max-width: 480px) {
+    .onboard {
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .onboard-2 {
+        width: 90%;
+        justify-content: space-between;
+    }
+    .training-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .user-info {
+        width: 100%;
+    }
+    .article-div {
+        width: 100%;
+    }
+}
+
+/* responsive tablette */
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    table {
+        width: 100%;
+        border-spacing: 0;
+        border: solid 1px #ccc;
+    }
+    .onboard {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .onboard-2 {
+        width: 90%;
+
+        justify-content: space-between;
+    }
+    .training-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .user-info {
+        margin: 0;
+        width: 55%;
+    }
+    .team-name {
+        width: 40%;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 0.5em;
+        height: 100%;
+    }
+    .article-div {
+        width: 45%;
+    }
+}
+
+/* responsive desktop*/
+@media screen and (min-width: 992px) {
+    table {
+        width: 100%;
+        border-spacing: 0;
+        border: solid 1px #ccc;
+    }
+    .onboard {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .onboard-2 {
+        width: 90%;
+
+        justify-content: space-between;
+    }
+    .training-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .user-info {
+        margin: 0;
+        width: 55%;
+    }
+    .team-name {
+        width: 40%;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 0.5em;
+        height: 100%;
+    }
+    .article-div {
+        width: 30%;
+    }
+}

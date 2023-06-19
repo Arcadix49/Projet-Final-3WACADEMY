@@ -1,0 +1,76 @@
+.container {
+    font-family: 'Viga';
+    margin: auto;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-teamcoach {
+    background-image: url('./coach-img/teamcoach.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    left: 0;
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.bg-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+}
+
+.bg-text h2 {
+    background-color: rgba(251, 136, 72, 0.7);
+    padding: 0.4em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.second-block h3 {
+    text-align: left;
+    background-color: rgb(251, 136, 72);
+    padding: 1em;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.as-coach {
+    border: solid 1px #ccc;
+    overflow-wrap: break-word;
+}
+
+.btn-show {
+    padding: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(251, 136, 72);
+    color: white;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.show-form {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container-coach {
+    border: solid 1px #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 20px;
+}
+
+/*responsive tablette */
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    .container {
+        width: 50%;
+    }
+}

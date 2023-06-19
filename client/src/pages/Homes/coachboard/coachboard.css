@@ -1,0 +1,145 @@
+.player {
+    color: #fb8848;
+}
+
+.onboard {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+    font-family: 'Viga';
+}
+
+.ul-info {
+    padding: 0 0.5em;
+}
+
+.user-info {
+    border: solid 1px #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 20px;
+
+    margin-top: 0;
+}
+.btn-form {
+    width: 100%;
+    align-items: center;
+}
+.logout {
+    width: 100%;
+    text-align: right;
+}
+
+.lgt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lgt a {
+    font-size: 15px;
+    text-decoration: none;
+    width: 40%;
+}
+
+.lgt a:hover {
+    color: orange;
+}
+
+.onboard table {
+    width: 100%;
+    border-spacing: 0;
+    border: solid 1px #ccc;
+}
+
+th {
+    background-color: #fb8848;
+    padding: 0.5em;
+    color: white;
+    font-weight: normal;
+}
+
+td {
+    padding: 0.1em;
+}
+
+.add-btn button {
+    padding: 0.7em;
+    border: none;
+    background-color: #fb8848;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.add-btn button:hover {
+    color: black;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+}
+
+.modal {
+    border: 1px solid #fb8848;
+    padding: 0.1em;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*responsive mobile*/
+@media screen and (max-width: 481px) {
+    table {
+        width: 100%;
+        border-spacing: 0;
+        border: solid 1px #ccc;
+    }
+    thead {
+        display: none;
+    }
+    table,
+    tbody,
+    tr,
+    td {
+        display: block;
+    }
+
+    td {
+        padding: 0.5em;
+        text-align: right;
+        width: 100%;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        text-align: left;
+        color: black;
+        font-weight: normal;
+    }
+    th {
+        background-color: #fb8848;
+        padding: 0.5em;
+        color: white;
+        font-weight: normal;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    table tr:last-child {
+        margin-bottom: 0;
+    }
+}

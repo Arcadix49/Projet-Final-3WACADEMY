@@ -1,0 +1,63 @@
+.art-wrapper {
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Viga';
+}
+
+.art-area {
+    padding: 10px;
+}
+
+.art-title {
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.art-wemb h3 {
+    margin-bottom: 10px;
+}
+
+.art-wemb p {
+    margin-bottom: 10px;
+}
+
+.section-comment {
+    width: 100%;
+}
+.comm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    width: 100%;
+    height: 50px;
+}
+
+hr {
+    border: solid 2px #fb8848;
+}
+
+.comments-an {
+    padding: 0.5em;
+    border: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+/*responsive desktop*/
+
+@media screen and (min-width: 992px) {
+    .comments-sec {
+        display: flex;
+
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .comments-sec ul {
+        width: 55%;
+    }
+    .comm {
+        width: 40%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 29px;
+    justify-content: space-around;
+}
+
+.alr-sign:hover {
+    color: #fb8848;
+}
+
+.btn-footer {
+    padding: 10px;
+    background-color: #fb8848;
+    color: white;
+    border: none;
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Viga';
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.lg ul {
+    display: flex;
+}
+
+.lg li {
+    color: white;
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    padding: 0 10px;
+}

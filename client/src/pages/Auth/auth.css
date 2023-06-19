@@ -1,0 +1,128 @@
+.form-container {
+    margin: 130px auto;
+    width: 90%;
+    border: solid 1px #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        font-family: 'Viga'
+}
+.input-control label {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #fb8848;
+    padding: 0.25em;
+    font-size: 25px;
+}
+
+.input-control {
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    font-family: 'Viga';
+}
+
+.input-control input {
+    display: block;
+    width: 70%;
+    padding: 5px;
+    font-size: 12px;
+  
+    color: orange;
+}
+
+.btn-form {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fb8848;
+    color: white;
+    border: none;
+    width: 60%;
+    margin-right: 13px;
+    font-size: 18px;
+    font-family: 'Viga';
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.btn-form:hover {
+    cursor: pointer;
+    border-bottom: solid 2px white;
+}
+
+.button-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-control a {
+    width: 100%;
+    display: flex;
+}
+
+img {
+    width: 30%;
+    height: 110px;
+}
+
+.toLog {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.input-control select {
+    display: block;
+    width: 70%;
+    padding: 5px;
+    font-size: 12px;
+    color: orange;
+    font-family: 'Viga';
+}
+
+
+/*responsive tablette*/
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    .form-container {
+        width: 70%;
+    }
+}
+
+/*responsive desktop*/
+@media screen and (min-width: 992px) {
+    .form-container {
+        width: 30%;
+    }
+}
+
+.btn-logout {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fb8848;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 40%;
+    margin-right: 13px;
+    font-size: 18px;
+    font-family: 'Viga';
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.btn-logout:hover{
+    border-bottom: solid 1px white;
+}

@@ -1,0 +1,26 @@
+textarea {
+    height: 100px;
+    width: 70%;
+    white-space: pre-line;
+}
+.success-message {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    background-color: #f7f5f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.modif svg:hover {
+    color: rgb(251, 136, 72);
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 16px;
+}
